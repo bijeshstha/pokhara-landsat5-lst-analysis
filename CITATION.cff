@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this Google Earth Engine script, please cite this software repository."
+title: "Pokhara Landsat 5: Seasonal Land Surface Temperature and Spectral Indices (2004)"
+type: software
+authors:
+  - family-names: "Shrestha"
+    given-names: "Bijesh"
+    affiliation: "Pashchimanchal Campus (IOE)"
+repository-code: "https://github.com/bijeshstha/pokhara-landsat5-lst-analysis"
+abstract: "Original Google Earth Engine JavaScript workflow for Landsat 5 seasonal LST, NDVI, NDWI and NDBI composites, gap filling, grid sampling and export preparation for Pokhara, Nepal."
+keywords:
+  - Google Earth Engine
+  - Landsat 5
+  - land surface temperature
+  - remote sensing
+  - Pokhara
