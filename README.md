@@ -93,6 +93,58 @@ Read [full methodology](docs/METHODOLOGY.md) and [limitations](docs/LIMITATIONS.
 
 The boundary is referenced as a personal GEE asset, and no authorized public polygon was provided. See [`data/README.md`](data/README.md) for reproducibility instructions. No output maps, CSVs or measured results have been fabricated; see [`results/README.md`](results/README.md) for an export checklist.
 
+## Preliminary GEE Validation Results
+
+The original Landsat 5 processing workflow was executed
+in Google Earth Engine for Pokhara, Nepal, covering
+May 1 to August 30, 2004.
+
+### Image Availability
+
+- Primary Landsat 5 scenes: 3
+- Patch-source collection entries: 10
+- Primary scene cloud threshold: 20%
+- Fallback scene cloud threshold: 50%
+
+Patch-source entries may overlap with primary scenes.
+
+### Spatial Coverage
+
+| Processing stage | Valid LST coverage |
+|---|---:|
+| Primary 2004 composite | 92.66% |
+| Same-year gap filling | 93.75% |
+| Adjacent-year gap filling | 99.68% |
+| Final spatial filling | 99.70% |
+
+Total additional coverage: 7.04 percentage points.
+
+### Final Composite LST Statistics
+
+| Statistic | Temperature |
+|---|---:|
+| Mean LST | 27.63 °C |
+| Minimum LST | 12.20 °C |
+| Maximum LST | 36.47 °C |
+
+### Validation Status
+
+The script successfully generated preliminary image
+counts, spatial-coverage statistics, and LST summaries.
+
+Visual inspection revealed spatial artifacts requiring
+further investigation.
+
+The gap-filling procedure incorporates observations
+from 2003 and 2005 to supplement missing 2004 pixels.
+
+These outputs are preliminary and have not undergone
+independent accuracy validation. They should not be
+interpreted as fully validated 2004 LST measurements.
+
+The original processing code is preserved without
+modification to its calculations.
+
 ## Research credits and citation
 
 - **Author / repository maintainer:** Bijesh Shrestha
