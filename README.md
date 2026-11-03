@@ -1,6 +1,6 @@
 # Pokhara Landsat 5: Seasonal Land Surface Temperature and Spectral Indices (2004)
 
-**Original Google Earth Engine JavaScript workflow by Bijesh Shrestha**  
+**Google Earth Engine JavaScript workflow by Bijesh Shrestha**  
 **Research institution:** Pashchimanchal Campus, Institute of Engineering (IOE), Nepal  
 **Related thesis:** *Study on Urban Land Surface Temperature Using Remote Sensing and CA-ANN in Pokhara, Nepal*
 
