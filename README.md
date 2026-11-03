@@ -4,7 +4,6 @@
 **Research institution:** Pashchimanchal Campus, Institute of Engineering (IOE), Nepal  
 **Related thesis:** *Study on Urban Land Surface Temperature Using Remote Sensing and CA-ANN in Pokhara, Nepal*
 
-> **Original analytical code preserved; comments polished.** This repository contains one script with its original executable statements intact and publication-ready comments for Landsat 5 preprocessing and output generation for Pokhara. It is **not** the full CA-ANN thesis model. Successful Google Earth Engine execution, results, and scientific validation have **not** been independently verified for this GitHub release.
 
 ## Project summary
 
